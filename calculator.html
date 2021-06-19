@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Theodoros Skartados" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/calculator.png" />
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="https://kit.fontawesome.com/dddb21581a.js" crossorigin="anonymous"></script>
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Calculator</h1>
+    </header>
+
+    <main>
+        <div class="calculator-display">
+            <p id="history-output" class="output"></p>
+            <p id="main-output" class="output"></p>
+        </div>
+        <div class="calculator-buttons">
+            <button class="button" value="9">9</button>
+            <button class="button" value="8">8</button>
+            <button class="button" value="7">7</button>
+            <button class="button" value="6">6</button>
+            <button class="button" value="5">5</button>
+            <button class="button" value="4">4</button>
+            <button class="button" value="3">3</button>
+            <button class="button" value="2">2</button>
+            <button class="button" value="1">1</button>
+            <button class="button" value="0">0</button>
+            <button class="button" value=".">.</button>
+            <button id="operator-add" class="button operators" value="+">&plus;</button>
+            <button id="operator-minus" class="button operators" value="-">&minus;</button>
+            <button id="operator-multi" class="button operators" value="*">&times;</button>
+            <button id="operator-div" class="button operators" value="/">&divide;</button>
+            <button id="equals" class="button">&equals;</button>
+            <button id="clear" class="button operators">C</button>
+            <button id="clearAll" class="button operators">AC</button>
+            <button id="baskspace" class="button operators"><i class="fas fa-backspace"></i></button>
+        </div>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
