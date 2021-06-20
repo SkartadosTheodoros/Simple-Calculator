@@ -3,7 +3,7 @@ This project was created by me during the START School of Code: FullStack Develo
 <br></br> 
 
 ## Description
-In this project, i create a simple Calculator using HTML, CSS and Vanila JS
+In this project, i create a simple Calculator using HTML, CSS and Javacsript
 <br></br>
 
 ## Built With 
